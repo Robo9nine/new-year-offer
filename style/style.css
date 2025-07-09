@@ -1,5 +1,50 @@
-*{
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  padding: 50px;
+  background-color: #ffffff;
+}
+
+.banner {
+  width: 1320px;
+  height: 600px;
+  background: linear-gradient(180deg, rgba(7, 2, 17, 0.7), rgba(7, 2, 17, 0.1)),
+              url('../images/Banner Image.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  margin: auto;
+  position: relative;
+}
+.text-container{
+  position: absolute;
+  font-size: 72px;
+  line-height: 95px;
+  font-weight: 900;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+.small-text {
+  font-size: 30px;
+  margin: 0;
+}
+.main-text {
+  font-size: 80px;
+  margin: 10px 0 0;
+  font-weight: bold;
+}
+
+.sub-text {
+  font-size: 60px;
+  margin: 0;
+  font-weight: bold;
 }
